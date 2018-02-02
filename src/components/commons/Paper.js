@@ -9,7 +9,7 @@ const styles = {
   containerStyle: {
     flex: 1,
     flexDirection: 'column',
-    backgroundColor: 'white'
+    backgroundColor: '#ddd'
   }
 };
 

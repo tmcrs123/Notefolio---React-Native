@@ -1,15 +1,11 @@
-import { SAVE_NOTE, DELETE_NOTE, EDIT_NOTE, GET_NOTES } from '../actions/types';
+import { GET_NOTES } from '../actions/types';
 
-export default (state = [], action) => {
+const INITIAL_STATE = { notes: [], loading: true };
+
+export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case GET_NOTES:
-      return action.payload;
-    case SAVE_NOTE:
-      return state;
-    case EDIT_NOTE:
-      return state;
-    case DELETE_NOTE:
-      return state;
+      return { ...state, notes: action.payload, loading: false };
     default:
       return state;
   }

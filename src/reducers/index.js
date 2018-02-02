@@ -4,7 +4,7 @@ import AuthReducer from './AuthReducer';
 import AddNoteReducer from './AddNoteReducer';
 
 export default combineReducers({
-  notes: NotesReducer,
+  notesInfo: NotesReducer,
   auth: AuthReducer,
   addNote: AddNoteReducer
 });

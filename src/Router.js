@@ -9,7 +9,6 @@ import * as actions from './actions';
 
 class RouterComponent extends Component {
   render() {
-    console.log('rotuer', this.props);
     return (
       <Router>
         <Scene key="root" hideNavBar>

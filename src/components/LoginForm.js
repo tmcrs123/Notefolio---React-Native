@@ -82,6 +82,7 @@ const styles = {
   },
   errorTextStyle: {
     fontSize: 16,
+    marginTop: 20,
     alignSelf: 'center',
     color: 'red'
   }

@@ -5,6 +5,7 @@ import _ from 'lodash';
 import * as actions from '../actions';
 import Note from './Note';
 import Paper from './commons/Paper';
+import FullPageSpinner from './commons/FullPageSpinner';
 
 class NoteList extends Component {
   componentWillMount() {
@@ -28,6 +29,9 @@ class NoteList extends Component {
   }
 
   render() {
+    if (this.props.loading) {
+      return <FullPageSpinner />;
+    }
     if (Object.values(this.props.notes).length > 0) {
       return (
         <ListView
@@ -49,8 +53,8 @@ class NoteList extends Component {
 }
 
 function mapStateToProps(state) {
-  const notes = _.map(state.notes, (val, uid) => ({ ...val, uid }));
-  return { notes };
+  const notes = _.map(state.notesInfo.notes, (val, uid) => ({ ...val, uid }));
+  return { notes, loading: state.notesInfo.loading };
 }
 
 const styles = {
