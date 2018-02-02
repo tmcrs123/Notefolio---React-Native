@@ -1,0 +1,13 @@
+export const CREATE_NOTE = 'save_note';
+export const EDIT_NOTE = 'edit_note';
+export const DELETE_NOTE = 'delete_note';
+export const GET_NOTES = 'get_notes';
+export const EMAIL_CHANGED = 'email_changed';
+export const PASSWORD_CHANGED = 'password_changed';
+export const LOGIN_USER_SUCCESS = 'login_user_success';
+export const LOGIN_USER_FAIL = 'login_user_fail';
+export const LOGIN_USER = 'login_user';
+export const TITLE_CHANGED = 'title_change';
+export const TEXT_CHANGED = 'text_change';
+export const UPDATE_NOTE = 'update_note';
+export const RESET_FORM = 'reset_form';
