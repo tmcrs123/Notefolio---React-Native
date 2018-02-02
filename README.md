@@ -16,8 +16,8 @@ Tiago
 
 <h2>Video Example</h2>
 
-<img src="https://i.imgur.com/HdTvrJz.gifv" />
-<img src="https://i.imgur.com/NXTJ2TL.gifv" />
+<img src="https://i.imgur.com/HdTvrJz.gif" />
+<img src="https://i.imgur.com/NXTJ2TL.gif" />
 
 <h2>Technologies</h2>
 
