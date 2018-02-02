@@ -16,7 +16,11 @@ Tiago
 
 <h2>Video Example</h2>
 
+<p>Ios</p>
+
 <img src="https://i.imgur.com/HdTvrJz.gif" />
+
+<p>Android</p>
 <img src="https://i.imgur.com/NXTJ2TL.gif" />
 
 <h2>Technologies</h2>
