@@ -1,6 +1,6 @@
 <h1>Notefolio</h1>
 
-A simple app build with react-native that allows you to create notes.
+A simple app built with react-native that allows you to create notes.
 
 Let me know what you think!
 
