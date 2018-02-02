@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 import Paper from './commons/Paper';
 import LargeInput from './commons/LargeInput';
 import Button from './commons/Button';

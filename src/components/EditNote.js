@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
+import _ from 'lodash';
 import Paper from './commons/Paper';
 import LargeInput from './commons/LargeInput';
 import Button from './commons/Button';
 import Input from './commons/Input';
 import * as actions from '../actions';
-import _ from 'lodash';
 import { ConfirmModal } from './commons/ConfirmModal';
 
 class EditNote extends Component {
@@ -91,10 +91,6 @@ class EditNote extends Component {
     );
   }
 }
-
-const styles = {
-  containerStyle: { flexDirection: 'column', justifyContent: 'flex-start', flex: 1 }
-};
 
 function mapStateToProps(state) {
   const { title, text, uid } = state.addNote;

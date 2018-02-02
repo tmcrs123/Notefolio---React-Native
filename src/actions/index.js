@@ -1,3 +1,5 @@
+import { Actions } from 'react-native-router-flux';
+import firebase from 'firebase';
 import {
   CREATE_NOTE,
   GET_NOTES,
@@ -11,12 +13,6 @@ import {
   UPDATE_NOTE,
   RESET_FORM
 } from './types';
-import { Actions } from 'react-native-router-flux';
-import firebase from 'firebase';
-
-/**
- * AUTH
- */
 
 export const passwordChanged = text => ({ type: PASSWORD_CHANGED, payload: text });
 export const emailChanged = text => ({ type: EMAIL_CHANGED, payload: text });

@@ -11,7 +11,6 @@ export default (state = INITIAL_STATE, action) => {
     case UPDATE_NOTE:
       return { ...state, [action.payload.prop]: action.payload.value };
     case RESET_FORM:
-      console.log('reseting form');
       return { ...INITIAL_STATE };
     default:
       return state;
