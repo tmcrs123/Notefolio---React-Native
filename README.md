@@ -16,7 +16,7 @@ Tiago
 
 <h2>Video Example</h2>
 
-<p>Ios</p>
+<p>IOS</p>
 
 <img src="https://i.imgur.com/HdTvrJz.gif" />
 
