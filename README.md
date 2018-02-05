@@ -18,7 +18,7 @@ Tiago
 
 <p>IOS</p>
 
-<img src="https://i.imgur.com/Ce7BIUk.gif" />
+<img src="https://i.imgur.com/PMxLNFm.gif" />
 
 <p>Android</p>
 <img src="https://i.imgur.com/24mjU0g.gif" />
